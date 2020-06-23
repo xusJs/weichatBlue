@@ -1,0 +1,46 @@
+/**index.wxss**/
+
+.btn{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 30rpx 0;
+}
+.list{
+  padding:30rpx;
+}
+.list .title{
+  padding: 20rpx;
+  font-size: 13px;
+  font-weight: bold;
+  color: #aaa;
+}
+.list .item {
+  border-bottom: 1px solid #ddd;
+  padding: 20rpx 0;
+  display: flex;
+  align-items: center;
+  
+}
+
+.list .item .icon{
+  width: 60rpx;
+  height: 60rpx;
+  /* border:1px solid #000; */
+  margin: 0 20rpx;
+}
+.list .item .icon image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.list .item .center{
+  flex: 1;
+}
+.list .item .left{
+  width: 30rpx;
+  height: 30rpx;
+  border:1px solid #000
+}
